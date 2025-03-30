@@ -1,0 +1,8 @@
+image/1016.jpg label/1016.png
+image/2349.jpg label/2349.png
+image/1977.jpg label/1977.png
+image/1974.jpg label/1974.png
+image/1292.jpg label/1292.png
+image/1256.jpg label/1256.png
+image/77.jpg label/77.png
+image/1401.jpg label/1401.png
