@@ -17,3 +17,5 @@ Trained parameters link:
 cd spine
 python test_folder.py
 ```
+
+Should you have any further questions, please let us know. Thanks for your interest.
