@@ -9,8 +9,8 @@ This codebase contains the official implementation of **Test** Process.
 Trained parameters link:  
 
 [Spinal Endoscopic Image](https://drive.google.com/file/d/1eIWbX5Dw2LeBJ5JSJijF_WF58ZPHT7vV/view?usp=sharing)  
-[EndoVis2017](https://drive.google.com/file/d/1vfeKWUpx01ER_X40_HgbkPbpG1EoXvWF/view?usp=sharing)  
-[EndoVis2018](https://drive.google.com/file/d/1q3hFvj-m0L_et5218qKe-cyRBUMoRPRI/view?usp=sharing)  
+[EndoVis2018](https://drive.google.com/file/d/1YB08haoLXHYYKHKRNGg0wMTO85wHNIN5/view?usp=sharing)  
+[Kvasir-Instrument](https://drive.google.com/file/d/1FhZQc2N8LtyqltIGBkJY54X0K_CddKew/view?usp=sharing)  
 
 ## Test (Taking spine as an example)
 ```console
