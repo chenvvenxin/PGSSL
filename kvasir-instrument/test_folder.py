@@ -10,7 +10,6 @@ import torch.backends.cudnn as cudnn
 from PIL import Image
 from model.semiseg.dpt import DPT
 
-
 if __name__ == "__main__":
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     with open('kvasir-instrument/test_path.txt', 'r') as m:
@@ -20,7 +19,7 @@ if __name__ == "__main__":
     checkpoint = torch.load('kvasir-instrument/best_kvasir.pth')
     
     data_transform = transforms.Compose([
-        transforms.Resize((1022, 1274)), #  (1024, 1280)
+        transforms.Resize((1022, 1274)), #  test (1024, 1280)
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
     ])
@@ -59,4 +58,5 @@ if __name__ == "__main__":
         output_path = os.path.join(output_folder, output_filename)
         cv2.imwrite(output_path, gray_image)
         
+
         print(f"Saved prediction result to {output_path}")
