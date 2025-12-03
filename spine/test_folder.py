@@ -11,6 +11,7 @@ from PIL import Image
 import sys
 from model.semiseg.dpt import DPT
 
+
 def list_jpg_files(folder_path):
     jpg_files = []
     for root, _, files in os.walk(folder_path):
@@ -69,4 +70,5 @@ if __name__ == "__main__":
         cv2.imwrite(output_path, gray_image)
         
         print(f"Saved prediction result to {output_path}")
+
         
