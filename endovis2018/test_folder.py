@@ -10,7 +10,6 @@ import torch.backends.cudnn as cudnn
 from PIL import Image
 from model.semiseg.dpt import DPT
 
-
 if __name__ == "__main__":
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     with open('endovis2018/test_path_endovis2018.txt', 'r') as m:
@@ -59,4 +58,5 @@ if __name__ == "__main__":
         output_path = os.path.join(output_folder, output_filename)
         cv2.imwrite(output_path, gray_image)
         
+
         print(f"Saved prediction result to {output_path}")
