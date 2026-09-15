@@ -1,4 +1,4 @@
-# Perturbation-Guided Semi-Supervised Learning for Surgical Instrument Segmentation in Endoscopic Spinal Surgery with Limited Labels
+# Perturbation-Guided Semi-Supervised Learning for Instrument Segmentation in Endoscopic Spinal Surgery with Limited Labels
 
 This codebase contains the official implementation of **Test** Process.
 
